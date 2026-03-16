@@ -3,11 +3,24 @@ body {
   background-size: 1030px;
 }
 
+#vendespil {
+    display: flex;
+    justify-content: center;    
+    font-family: Fredoka;
+    font-size: 4rem;
+    color: white;
+    text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+}
+
 .images {
   display: flex;
   gap: 20px;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   height: 100vh;
 }
 
