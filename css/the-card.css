@@ -19,7 +19,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* There has to be a height in order for justify content to work */
-    height: 180px;
+    height: 390px;
 }
 
 /* Map was a vector, so it has to have a background */
@@ -28,7 +28,7 @@ section {
     border-radius: 20px;
 }
 
-/* Styling for fish inside a container, inside a div, inside another div*/
+/* (STARTS HERE) Styling for fish inside a container, inside a div, inside another div*/
 .fish-box-1 {
     width: auto;
     border: solid;
@@ -41,20 +41,67 @@ section {
 .fish-box-1 p {
     display: flex;
     align-items: center;
+    padding-right: 30px;
 }
 
 #fish-1-vector {
     height: 80px;
     width: auto;
 }
+/* ENDS HERE (for .fish-box-1) */
 
-
+.fish-box-2 {
+    width: auto;
+    border: solid;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fish-box-2 p {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
 
 #fish-2-vector {
     height: 80px;
     width: auto;
-    border: solid;
-    border-radius: 30px;
 }
 
+.fish-box-3 {
+    width: auto;
+    border: solid;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fish-box-3 p {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+#fish-3-vector {
+    height: 80px;
+    width: auto;
+}
+
+
+.fish-box-4 {
+    width: auto;
+    border: solid;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.fish-box-4 p {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+}
+
+#fish-4-vector {
+    height: 80px;
+    width: auto;
+}
 
