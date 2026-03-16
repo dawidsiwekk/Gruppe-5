@@ -1,15 +1,25 @@
+body {
+  background: url(../img/background.png);
+  background-size: 1030px;
+}
+
 .images {
   display: flex;
   gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .card {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   margin: 0;
   position: relative;
   cursor: pointer;
   perspective: 1000px;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 /* Front + Back Card */
