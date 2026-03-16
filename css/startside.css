@@ -1,5 +1,14 @@
+html, body {
+    height: 100%;
+}
+
 body {
-    background-image: url("../img/background.png");
+    background-image: url(../img/forside.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    margin: 0;
 }
 
 .green-box{
@@ -14,7 +23,16 @@ body {
     align-items: center;
     font-size: 2em;
     text-align: center;
+    text-decoration: none;
 }
+.green-box h2 {
+    color: black;
+}
+
+.green-box:hover {
+    background-color: rgba(158, 255, 158, 0.5);
+}
+
 #boxes{
     display: flex;
     justify-content: center;
@@ -31,8 +49,7 @@ body {
      2px -2px 0 black,
     -2px  2px 0 black,
      2px  2px 0 black;
-
-
+    text-align: center;
 }
 #welcome-page {
     display: flex;

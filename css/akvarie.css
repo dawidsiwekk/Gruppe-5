@@ -1,0 +1,51 @@
+body {
+    background-image: url("../img/background.png");
+}
+
+.fish1 {
+  position: absolute;
+  bottom: 2.8vh;
+  width: var(--car-w);
+  max-width: 28vw;
+  z-index: 1;
+  left: calc(-1 * var(--off-fish1));
+  animation: fish1 10s linear infinite;
+}
+
+@keyframes fish1 {
+    0%   {left:0px; top:0px;}
+    25%   {left:100px; top: 40px;}
+    100% {left:500px; top:0px;}
+}
+
+.fish2 {
+  position: absolute;
+  bottom: 2.8vh;
+  width: var(--car-w);
+  max-width: 28vw;
+  z-index: 1;
+  right: calc(-1 * var(--off-fish2));
+  animation: fish2 12s linear infinite;
+}
+
+@keyframes fish2 {
+  0%   { transform: translateX(0) rotateY(180deg); }
+  90%,
+  100% { transform: translateX(calc(-100vw - var(--off-fish2))) rotateY(180deg); }
+}
+
+.fish3 {
+  position: absolute;
+  bottom: -3.4vh;
+  width: var(--car-w);
+  max-width: 28vw;
+  z-index: 1;
+  left: calc(-1 * var(--off-fish3));
+  will-change: transform;
+  animation: car3 8s linear infinite;
+}
+
+@keyframes fish3 {
+  0%   { transform: translateX(0) rotateY(180deg); }
+  100% { transform: translateX(calc(100vw + var(--off-fish3))) rotateY(180deg); }
+}

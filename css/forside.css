@@ -1,0 +1,46 @@
+*{
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../img/forside.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#welcome-header {
+    display: flex;
+    justify-content: center;    
+    font-family: Fredoka;
+    font-size: 4rem;
+    color: white;
+    text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+    text-align: center;
+}
+
+#click-to-start { 
+    font-family: Fredoka;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    margin: 5.5rem;
+    font-size: 40px;
+    animation: startText 2s linear infinite;
+}
+
+@keyframes startText {
+0% {opacity: 1;}
+50% {opacity: 0;}
+100% {opacity: 1;}
+}
