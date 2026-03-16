@@ -1,14 +1,15 @@
 html, body {
     height: 100%;
+    margin: 0;
 }
 
 body {
     background-image: url(../img/forside.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100%;
-    margin: 0;
+    background-repeat: repeat-x;
+    background-position:bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .green-box{
@@ -38,9 +39,7 @@ body {
     justify-content: center;
 }
 
-#welcome-header{
-    display: flex;
-    justify-content: center;    
+#welcome-header{   
     font-family: Fredoka;
     font-size: 4rem;
     color: white;
@@ -50,9 +49,4 @@ body {
     -2px  2px 0 black,
      2px  2px 0 black;
     text-align: center;
-}
-#welcome-page {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
