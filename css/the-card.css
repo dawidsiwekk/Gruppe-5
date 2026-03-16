@@ -3,3 +3,10 @@ body {
   background-size: 1030px;
 }
 
+.the-card {
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    padding: 20px 30px;
+}
+
