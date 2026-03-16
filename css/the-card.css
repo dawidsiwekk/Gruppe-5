@@ -3,11 +3,17 @@ body {
   background-size: 1030px;
 }
 
-.the-card {
-    display: flex;
-    justify-content: flex-end;
-    align-content: center;
+section {
     padding: 20px 30px;
+    display: flex;
+    justify-content: space-between ;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+.the-card-box {
+    
+    
 }
 
 #the-card-1 {
@@ -15,11 +21,6 @@ body {
     border-radius: 20px;
 }
 
-.fish-1-box {
-    display: flex;
-    align-content: ;
-
-}
 
 #fish-1-vector {
     height: 80px;
