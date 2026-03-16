@@ -1,3 +1,7 @@
+body {
+    background-image: url("../img/background.png");
+}
+
 .green-box{
     background-color: rgba(144,238,144,0.5);
     margin: 100px;
@@ -21,6 +25,14 @@
     justify-content: center;    
     font-family: Fredoka;
     font-size: 4rem;
+    color: white;
+    text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+
+
 }
 #welcome-page {
     display: flex;
