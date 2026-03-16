@@ -1,0 +1,25 @@
+.green-box{
+    background-color: rgba(144,238,144,0.5);
+    margin: 100px;
+    padding: 20px;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 25px;
+
+}
+#boxes{
+    display: flex;
+    justify-content: center;
+}
+
+#welcome-header{
+    display: flex;
+    justify-content: center;
+
+}
+#welcome-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
