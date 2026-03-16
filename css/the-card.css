@@ -1,8 +1,11 @@
+
+/* Edits a whole section we can see (fx. Background) */
 body {
   background: url(../img/background.png);
   background-size: 1030px;
 }
 
+/* Flex cointainer, that moves fish + kort */
 section {
     padding: 20px 30px;
     display: flex;
@@ -11,21 +14,47 @@ section {
     align-items: flex-start;
 }
 
-.the-card-box {
-    
-    
+/* Here you chancge how fishes are displayed */
+.fish-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* There has to be a height in order for justify content to work */
+    height: 180px;
 }
 
+/* Map was a vector, so it has to have a background */
 #the-card-1 {
     background-color: aquamarine;
     border-radius: 20px;
 }
 
+/* Styling for fish inside a container, inside a div, inside another div*/
+.fish-box-1 {
+    width: auto;
+    border: solid;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* The text here is not a text item no more, but a flex item */
+.fish-box-1 p {
+    display: flex;
+    align-items: center;
+}
 
 #fish-1-vector {
+    height: 80px;
+    width: auto;
+}
+
+
+
+#fish-2-vector {
     height: 80px;
     width: auto;
     border: solid;
     border-radius: 30px;
 }
+
 
