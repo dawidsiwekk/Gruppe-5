@@ -2,10 +2,14 @@
     background-color: rgba(144,238,144,0.5);
     margin: 100px;
     padding: 20px;
-    width: 20rem;
+    width: 25rem;
     height: 20rem;
     border-radius: 25px;
-
+    font-family: Fredoka;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    text-align: center;
 }
 #boxes{
     display: flex;
@@ -14,12 +18,12 @@
 
 #welcome-header{
     display: flex;
-    justify-content: center;
-
+    justify-content: center;    
+    font-family: Fredoka;
+    font-size: 4rem;
 }
 #welcome-page {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
