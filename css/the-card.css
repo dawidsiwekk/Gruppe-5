@@ -5,8 +5,26 @@ body {
 
 .the-card {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-content: center;
     padding: 20px 30px;
+}
+
+#the-card-1 {
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.fish-1-box {
+    display: flex;
+    align-content: ;
+
+}
+
+#fish-1-vector {
+    height: 80px;
+    width: auto;
+    border: solid;
+    border-radius: 30px;
 }
 
