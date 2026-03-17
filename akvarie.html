@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Road Animations</title>
-    <!-- indsæt link her til eksternt stylesheet --> 
      <link rel="stylesheet" href="css/akvarie.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fredoka:wght@300..700&family=Julius+Sans+One&display=swap" rel="stylesheet">
+
 </head>
 <body>
-<!-- opbyg HTML struktur her -->
- <section class="akvarie">
+ <section id="akvarie">
     <div class="fish">
         <img src="img/seahorse.gif" alt="seahorse" class="fish1" id="seaHorse">
         <img src="img/purple-fish.png" alt="purple fish" class="fish2" id="purpleFish">
         <img src="img/green-fish.png" alt="green fish" class="fish3" id="greenFish">
     </div>
  </section>
+<div id="faktaBoks">
+ <div id="fiske-fakta" class="fiskeFakta"></div>
+</div>
 
- <div id="tool-tip" class="tooltip"></div>  
-<!-- indsæt link her til eksternt javascript --> 
+<a href="startside.html" id="tilbage-knap"><img src="img/home-button.png" alt="home button"></a>
+ <script src="js/fish-swimming.js"></script>
+
+<a href="startside.html" id="globus-knap"><img src="img/globe.png" alt="globe"></a>
  <script src="js/fish-swimming.js"></script>
 </body>
 </html>

@@ -32,7 +32,7 @@ body {
   max-width: 30vw;
   transform: translate(100vw,5vw);
   animation: fish3 20s linear infinite;
-  animation-delay: 3s;
+  animation-delay: 4s;
 }
 
 @keyframes fish3 {
@@ -40,3 +40,33 @@ body {
     100% {transform: translate(-20vw,10vw);}
 }
 
+#faktaBoks {
+display: flex;
+justify-content: center;
+}
+
+.fiskeFakta {
+  background-color: rgba(144,238,144,1);
+  border-radius: 25px;
+  font-family: Fredoka;
+  font-size: 1.5vw;
+  padding: 20px;
+  max-width: min(px, 100px);
+}
+
+.fiskeFakta.is-visible {
+   opacity: 1;
+   transform: translateY(0);
+}
+
+#tilbage-knap {
+  position: fixed;
+    background-color: rgba(144,238,144,1);
+    padding: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+}
