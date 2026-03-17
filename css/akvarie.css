@@ -70,3 +70,16 @@ justify-content: center;
     width: 10px;
     height: 10px;
 }
+
+#globus-knap {
+    position: fixed;
+    background-color: rgba(144,238,144,1);
+    padding: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    transform: translate(70vw,0);
+}
