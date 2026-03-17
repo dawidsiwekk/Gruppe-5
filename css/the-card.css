@@ -105,3 +105,30 @@ section {
     width: auto;
 }
 
+
+
+/* OVERLAY FISH HOVER */
+.the-card-box {
+    position: relative;
+}
+
+.map-area {
+    position: absolute;
+    background-color: pink;
+    border-radius: 10px;
+    display: none;
+}
+
+#area-1 {
+    top: 20%;
+    left: 60%;
+    width: 120px;
+    height: 80px;
+}
+
+#area-2 {
+    top: 50%;
+    left: 30%;
+    width: 120px;
+    height: 80px;
+}
