@@ -24,7 +24,7 @@ section {
 
 /* Map was a vector, so it has to have a background */
 #the-card-1 {
-    
+    background-color: aqua;
     border-radius: 20px;
 }
 
@@ -118,21 +118,24 @@ section {
 
 .map-area {
     position: absolute;
-    background-color: pink;
-    border-radius: 10px;
+    border: dashed 3px;
+    border-color: tomato;
+    border-radius: 90px;
     display: none;
 }
 
 #area-1 {
-    top: 20%;
-    left: 60%;
+    top: 48%;
+    left: 58%;
     width: 120px;
     height: 80px;
+    rotate: 10deg;
 }
 
 #area-2 {
-    top: 50%;
-    left: 30%;
+    top: 38%;
+    left: 76%;
     width: 120px;
     height: 80px;
+    rotate: 98deg;
 }
