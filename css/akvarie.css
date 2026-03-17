@@ -4,48 +4,39 @@ body {
 
 .fish1 {
   position: absolute;
-  bottom: 2.8vh;
-  width: var(--car-w);
-  max-width: 28vw;
-  z-index: 1;
-  left: calc(-1 * var(--off-fish1));
-  animation: fish1 10s linear infinite;
+  max-width: 35vw;
+  transform: translate(-20vw,10vw);
+  animation: fish1 15s linear infinite;
 }
 
 @keyframes fish1 {
-    0%   {left:0px; top:0px;}
-    25%   {left:100px; top: 40px;}
-    100% {left:500px; top:0px;}
+    0%   {transform: translate(-20vw,10vw);}
+    100% {transform: translate(110vw,10vw);}
 }
 
 .fish2 {
   position: absolute;
-  bottom: 2.8vh;
-  width: var(--car-w);
-  max-width: 28vw;
-  z-index: 1;
-  right: calc(-1 * var(--off-fish2));
-  animation: fish2 12s linear infinite;
+  max-width: 30vw;
+  transform: translate(-30vw,20vw);
+  animation: fish2 14s linear infinite;
+  animation-delay: 2s;
 }
 
 @keyframes fish2 {
-  0%   { transform: translateX(0) rotateY(180deg); }
-  90%,
-  100% { transform: translateX(calc(-100vw - var(--off-fish2))) rotateY(180deg); }
+    0%   {transform: translate(-30vw,32vw);}
+    100% {transform: translate(110vw,32vw);}
 }
 
 .fish3 {
   position: absolute;
-  bottom: -3.4vh;
-  width: var(--car-w);
-  max-width: 28vw;
-  z-index: 1;
-  left: calc(-1 * var(--off-fish3));
-  will-change: transform;
-  animation: car3 8s linear infinite;
+  max-width: 30vw;
+  transform: translate(100vw,5vw);
+  animation: fish3 20s linear infinite;
+  animation-delay: 3s;
 }
 
 @keyframes fish3 {
-  0%   { transform: translateX(0) rotateY(180deg); }
-  100% { transform: translateX(calc(100vw + var(--off-fish3))) rotateY(180deg); }
+    0%   {transform: translate(100vw,5vw);}
+    100% {transform: translate(-20vw,10vw);}
 }
+
