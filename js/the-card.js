@@ -1,8 +1,8 @@
 "use strict";
 
 // This function is making the location appear while hovering on fish
-const fish1 = document.getElementsByClassName("fish-box-1");
-const fish2 = document.getElementsByClassName("fish-box-2");
+const fish1 = document.querySelector(".fish-box-1");
+const fish2 = document.querySelector(".fish-box-2");
 
 const area1 = document.getElementById("area-1");
 const area2 = document.getElementById("area-2");
