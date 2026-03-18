@@ -5,15 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akvarie</title>
     <link rel="stylesheet" href="css/forside.css">
+    <link rel="stylesheet" href="css/akvarie.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Fredoka:wght@300..700&family=Julius+Sans+One&display=swap" rel="stylesheet">
 
 </head>
 <body>
+<div class="aquarium">
+  <div class="ray" style="left:12%; animation-delay:0s;"></div>
+  <div class="ray" style="left:30%; animation-delay:-1.5s; width:55px;"></div>
+  <div class="ray" style="left:52%; animation-delay:-0.8s; width:70px;"></div>
+  <div class="ray" style="left:74%; animation-delay:-2.2s;"></div>
+  <div class="ray" style="left:90%; animation-delay:-1s; width:50px;"></div>
+  <div id="bg-layer"></div>
+  <div id="bubbles-layer"></div>
+  <div id="plants-layer"></div>
+  <div class="sand"></div>
+  <div class="vignette"></div>
+  <div id="fg-layer"></div>
+</div>
     <h1 id="welcome-header">VELKOMMEN TIL AKVARIET!</h1>
     <p id="click-to-start">Tryk på skærmen for at starte!</p>
 
+<script src="js/aquarium-bg.js"></script>
 <script src="js/forside.js"></script>
 </body>
 </html>
