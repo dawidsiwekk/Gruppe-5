@@ -118,7 +118,7 @@ body {
   animation: fish2 20s linear infinite;
   animation-delay: 2s;
   z-index: 3;
-  transform: translate(110vw, 32vw), scaleX(-1);
+  transform: translate(110vw,32vw);
 }
 
 @keyframes fish2 {
@@ -161,6 +161,7 @@ body {
   animation: fish5Walk 40s linear infinite;
   animation-delay: 1s;
   z-index: 6;
+  transform: translateX(-12vw);
 }
 
 @keyframes fish5Walk {
