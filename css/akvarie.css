@@ -118,6 +118,7 @@ body {
   animation: fish2 14s linear infinite;
   animation-delay: 2s;
   z-index: 3;
+  transform: translate(110vw, 32vw), scaleX(-1);
 }
 
 @keyframes fish2 {
