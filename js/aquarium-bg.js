@@ -1,7 +1,5 @@
 "use strict";
 
-document.addEventListener("DOMContentLoaded", () => {
-
 function placeItem(layer, html, x, bottom, zIndex, blur, opacity) {
   const d = document.createElement('div');
   d.className = 'pushable';
@@ -77,5 +75,3 @@ function pushElements() {
 buildMidground();
 buildBubbles();
 pushElements();
-
-})
