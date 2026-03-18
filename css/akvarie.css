@@ -157,7 +157,7 @@ body {
 .fish5 {
   position: absolute;
   max-width: 8vw;
-  bottom: 85px;
+  bottom: 95px;
   animation: fish5Walk 20s linear infinite;
   animation-delay: 3s;
   z-index: 4;
