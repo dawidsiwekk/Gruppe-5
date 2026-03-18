@@ -11,6 +11,21 @@
 
 </head>
 <body>
+
+<div class="aquarium">
+  <div class="ray" style="left:12%; animation-delay:0s;"></div>
+  <div class="ray" style="left:30%; animation-delay:-1.5s; width:55px;"></div>
+  <div class="ray" style="left:52%; animation-delay:-0.8s; width:70px;"></div>
+  <div class="ray" style="left:74%; animation-delay:-2.2s;"></div>
+  <div class="ray" style="left:90%; animation-delay:-1s; width:50px;"></div>
+  <div id="bg-layer"></div>
+  <div id="bubbles-layer"></div>
+  <div id="plants-layer"></div>
+  <div class="sand"></div>
+  <div class="vignette"></div>
+  <div id="fg-layer"></div>
+</div>
+
  <section id="akvarie">
     <div class="fish">
         <img src="img/seahorse.gif" alt="seahorse" class="fish1" id="seaHorse">
@@ -21,11 +36,12 @@
 <div id="faktaBoks">
  <div id="fiske-fakta" class="fiskeFakta"></div>
 </div>
-<div id="buttons">
+
 <a href="startside.html" id="tilbage-knap"><img src="img/home-button.png" alt="home button"></a>
-<h1 id="push-header">TRYK PÅ EN FISK OG LÆR OM DEN!</h1>
-<a href="the-card.html" id="globus-knap"><img src="img/globe-button2.png" alt="globe" id="globe-icon"></a>
-</div>
+ <script src="js/aquarium-bg.js"></script>
+ <script src="js/fish-swimming.js"></script>
+
+<a href="the-card.html" id="globus-knap"><img src="img/globe-button.png" alt="globe"></a>
  <script src="js/fish-swimming.js"></script>
 </body>
 </html>
