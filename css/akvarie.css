@@ -101,7 +101,7 @@ body {
 
 .fish1 {
   position: absolute;
-  max-width: 12vw;
+  max-width: 30vw;
   transform: translate(-20vw,10vw);
   animation: fish1 15s linear infinite;
   z-index: 3;
@@ -114,7 +114,7 @@ body {
 
 .fish2 {
   position: absolute;
-  max-width: 10vw;
+  max-width: 25vw;
   transform: translate(-30vw,20vw);
   animation: fish2 14s linear infinite;
   animation-delay: 2s;
@@ -122,13 +122,13 @@ body {
 }
 
 @keyframes fish2 {
-    0%   {transform: translate(-30vw,32vw) scaleX(-1);}
-    100% {transform: translate(110vw,32vw) scaleX(-1);}
+    0%   {transform: translate(-30vw,32vw);}
+    100% {transform: translate(110vw,32vw);}
 }
 
 .fish3 {
   position: absolute;
-  max-width: 10vw;
+  max-width: 15vw;
   transform: translate(100vw,5vw);
   animation: fish3 20s linear infinite;
   animation-delay: 4s;

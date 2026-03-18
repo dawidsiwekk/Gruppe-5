@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
             elem.addEventListener("click", () => {
                 /* Oprette en HTML-blok indeholdende bilens detaljer */
                 const fishDetails = `
-                <strong>Art:${fish.fishSpecies}</strong><br>
+                <strong>Art: ${fish.fishSpecies}</strong><br>
                 Familie: ${fish.fishFamily}<br>
                 Fisken spiser ${fish.fishFood}<br>
                 FISKEFAKTA: ${fish.funFact}<br>
