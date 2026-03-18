@@ -35,7 +35,7 @@ main {
 
 /* Map was a vector, so it has to have a background */
 #the-card-1 {
-    background-color: rgba(24, 24, 121, 0.333);
+    background-color: rgba(144,238,144,0.85);
     border-radius: 20px;
 }
 
@@ -47,6 +47,7 @@ main {
     display: flex;
     flex-direction: row-reverse;
     cursor: pointer;
+    background-color: rgba(144,238,144,0.85);
 }
 
 /* The text here is not a text item no more, but a flex item */
@@ -69,6 +70,7 @@ main {
     display: flex;
     flex-direction: row-reverse;
     cursor: pointer;
+    background-color: rgba(144,238,144,0.85);
 }
 .fish-box-2 p {
     display: flex;
@@ -88,6 +90,7 @@ main {
     display: flex;
     flex-direction: row-reverse;
     cursor: pointer;
+    background-color: rgba(144,238,144,0.85);
 }
 .fish-box-3 p {
     display: flex;
@@ -109,6 +112,7 @@ main {
     display: flex;
     flex-direction: row-reverse;
     cursor: pointer;
+    background-color: rgba(144,238,144,0.85);
 }
 .fish-box-4 p {
     display: flex;
