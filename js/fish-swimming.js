@@ -27,7 +27,7 @@ const fishInfo = [
 /* Venter med at køre JS-koden til hele DOM'en er indlæst */
 document.addEventListener("DOMContentLoaded", () => {
 
-    const fiskeFakta = document.getElementById("fiske-fakta") 
+    const fiskeFakta = document.getElementById("fiskeFakta")
     
     /* Funktion der viser toolTip med bil-info */
 
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
             /* Indsætter tekst i tool-tip elementet */
             fiskeFakta.innerHTML = html;
             /* Gør tooltip elementet synligt med CSS-klassen is-visible */
-            fiskeFakta.classList.add("is-visible");
+            fiskeFakta.classList.add("isVisible");
 
         }
     }
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
             });
             elem.addEventListener("mouseleave", () => {
                 if (fiskeFakta) {
-                    fiskeFakta.classList.remove("is-visible");
+                    fiskeFakta.classList.remove("isVisible");
                 }
             });
         });

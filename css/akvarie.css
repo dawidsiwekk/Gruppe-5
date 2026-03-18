@@ -34,10 +34,10 @@ body {
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.18), transparent);
   transform-origin: top center;
   pointer-events: none;
-  animation: ray-sway 5s ease-in-out infinite alternate;
+  animation: raySway 5s ease-in-out infinite alternate;
 }
 
-@keyframes ray-sway {
+@keyframes raySway {
   from { transform: rotate(-6deg) skewX(5deg);  opacity: 0.6; }
   to   { transform: rotate(6deg)  skewX(-5deg); opacity: 1;   }
 }
@@ -73,10 +73,10 @@ body {
   );
   border: 1.5px solid rgba(255, 255, 255, 0.55);
   pointer-events: none;
-  animation: bubble-rise linear infinite;
+  animation: bubbleRise linear infinite;
 }
 
-@keyframes bubble-rise {
+@keyframes bubbleRise {
   0%   { transform: translateY(0)      translateX(0);    opacity: 0.8; }
   40%  { transform: translateY(-35vh)  translateX(8px);  opacity: 0.6; }
   70%  { transform: translateY(-60vh)  translateX(-6px); opacity: 0.4; }
@@ -129,11 +129,12 @@ body {
 #purpleFish {
   animation: purpleFishSwim 14s linear infinite;
   animation-delay: 2s;
+    
 }
 
 @keyframes purpleFishSwim {
-    0%   {transform: translate(110vw, 32vw);}
-    100% {transform: translate(-30vw, 32vw);}
+    0%   {transform: translate(110vw, 32vw) scaleX(-1);}
+    100% {transform: translate(-30vw, 32vw) scaleX(-1);}
 }
 
 .fish3 {
@@ -171,11 +172,11 @@ body {
   transition: opacity 0.3s ease;
 }
 
-.fiskeFakta.is-visible {
+.fiskeFakta.isVisible {
    opacity: 1;
 }
 
-#tilbage-knap {
+#tilbageKnap {
   background-color: rgba(144,238,144,1);
   border-radius: 100px;
   display: flex;
@@ -186,7 +187,7 @@ body {
   padding: 0;
 }
 
-#globus-knap {
+#globusKnap {
   background-color: rgba(144,238,144,1);
   border-radius: 100px;
   display: flex;
@@ -208,7 +209,7 @@ body {
   box-sizing: border-box;
 }
 
-#push-header {   
+#pushHeader {   
     font-family: Fredoka;
     font-size: 2rem;
     color: white;
