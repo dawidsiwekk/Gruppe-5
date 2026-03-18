@@ -101,7 +101,7 @@ body {
 
 .fish1 {
   position: absolute;
-  max-width: 30vw;
+  max-width: 22vw;
   transform: translate(-20vw,10vw);
   animation: fish1 15s linear infinite;
   z-index: 3;
@@ -114,21 +114,31 @@ body {
 
 .fish2 {
   position: absolute;
-  max-width: 25vw;
-  transform: translate(-30vw,20vw);
+  max-width: 18vw;
+  transform: translate(-30vw,20vw) scaleX(-1);
   animation: fish2 14s linear infinite;
   animation-delay: 2s;
   z-index: 3;
 }
 
 @keyframes fish2 {
-    0%   {transform: translate(-30vw,32vw);}
-    100% {transform: translate(110vw,32vw);}
+    0%   {transform: translate(-30vw,32vw) scaleX(-1);}
+    100% {transform: translate(110vw,32vw) scaleX(-1);}
+}
+
+#purpleFish {
+  animation: purpleFishSwim 14s linear infinite;
+  animation-delay: 2s;
+}
+
+@keyframes purpleFishSwim {
+    0%   {transform: translate(110vw, 32vw);}
+    100% {transform: translate(-30vw, 32vw);}
 }
 
 .fish3 {
   position: absolute;
-  max-width: 15vw;
+  max-width: 14vw;
   transform: translate(100vw,5vw);
   animation: fish3 20s linear infinite;
   animation-delay: 4s;
@@ -141,8 +151,12 @@ body {
 }
 
 #faktaBoks {
-display: flex;
-justify-content: center;
+  position: fixed;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  pointer-events: none;
 }
 
 .fiskeFakta {
@@ -151,13 +165,14 @@ justify-content: center;
   font-family: Fredoka;
   font-size: 1.5vw;
   padding: 20px;
-  max-width: min(px, 100px);
+  max-width: min(90vw, 480px);
+  min-width: 200px;
   opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .fiskeFakta.is-visible {
    opacity: 1;
-   transform: translateY(0);
 }
 
 #tilbage-knap {

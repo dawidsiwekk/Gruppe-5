@@ -39,11 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
             fiskeFakta.innerHTML = html;
             /* Gør tooltip elementet synligt med CSS-klassen is-visible */
             fiskeFakta.classList.add("is-visible");
-            /* Sætte en timer til at skjule tool-tip elementet efter 8 sek */
-            setTimeout(function(){
-                /* Fjerner CSS-klassen is-visible efter 8 sek */
-                fiskeFakta.classList.remove("is-visible");
-                },8000);
 
         }
     }
@@ -51,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     fishInfo.forEach((fish) => {
         /* Finder alle DOM-elementer med den aktuelle bil class attribute navn */
         document.querySelectorAll("." + fish.className).forEach((elem) =>{
-            elem.addEventListener("click", () => {
+            elem.addEventListener("mouseenter", () => {
                 /* Oprette en HTML-blok indeholdende bilens detaljer */
                 const fishDetails = `
                 <strong>Art: ${fish.fishSpecies}</strong><br>
@@ -60,6 +55,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 FISKEFAKTA: ${fish.funFact}<br>
                 `;
                 showFiskeFakta(fishDetails)
+            });
+            elem.addEventListener("mouseleave", () => {
+                if (fiskeFakta) {
+                    fiskeFakta.classList.remove("is-visible");
+                }
             });
         });
     });
