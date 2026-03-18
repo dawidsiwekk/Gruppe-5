@@ -13,7 +13,7 @@ const fishInfo = [
     fishSpecies: "Pincetfisk",
     fishFamily: "Sommerfuglefisk",
     fishFood: "smådyr, glasroser",
-    funFact: "Søhesten er den langsomste fisk i verden!"
+    funFact: "Pincetfisken bruger sin lange snude til at nå byttet dybt inde i koralrevnerne!"
 },
 {
     className: "fish3",
@@ -56,10 +56,10 @@ document.addEventListener("DOMContentLoaded", () => {
             elem.addEventListener("mouseenter", () => {
                 /* Oprette en HTML-blok indeholdende bilens detaljer */
                 const fishDetails = `
-                <strong>Art: ${fish.fishSpecies}</strong><br>
+                <div class="fakta-navn">${fish.fishSpecies}</div>
                 Familie: ${fish.fishFamily}<br>
                 Fisken spiser ${fish.fishFood}<br>
-                FISKEFAKTA: ${fish.funFact}<br>
+                <span style="font-weight: 600;">&#9733; ${fish.funFact}</span>
                 `;
                 showFiskeFakta(fishDetails)
             });
