@@ -159,7 +159,7 @@ body {
   max-width: 8vw;
   bottom: 65px;
   animation: fish5Walk 40s linear infinite;
-  animation-delay: 3s;
+  animation-delay: 1s;
   z-index: 4;
 }
 
