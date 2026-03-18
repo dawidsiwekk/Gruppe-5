@@ -101,9 +101,9 @@ body {
 
 .fish1 {
   position: absolute;
-  max-width: 22vw;
+  max-width: 28vw;
   transform: translate(-20vw,10vw);
-  animation: fish1 15s linear infinite;
+  animation: fish1 22s linear infinite;
   z-index: 3;
 }
 
@@ -114,8 +114,8 @@ body {
 
 .fish2 {
   position: absolute;
-  max-width: 18vw;
-  animation: fish2 14s linear infinite;
+  max-width: 24vw;
+  animation: fish2 17s linear infinite;
   animation-delay: 2s;
   z-index: 3;
 }
@@ -127,9 +127,9 @@ body {
 
 .fish3 {
   position: absolute;
-  max-width: 14vw;
+  max-width: 20vw;
   transform: translate(100vw,5vw);
-  animation: fish3 20s linear infinite;
+  animation: fish3 13s linear infinite;
   animation-delay: 4s;
   z-index: 3;
 }
@@ -141,9 +141,9 @@ body {
 
 .fish4 {
   position: absolute;
-  max-width: 10vw;
+  max-width: 12vw;
   transform: translate(110vw, 22vw);
-  animation: fish4 15s linear infinite;
+  animation: fish4 13s linear infinite;
   animation-delay: 6s;
   z-index: 3;
 }
