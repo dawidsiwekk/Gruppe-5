@@ -21,6 +21,13 @@ const fishInfo = [
     fishFamily: "Jomfrufisk",
     fishFood: "plankton, alger, orme",
     funFact: "Alle klovnfisk er født som drenge!"
+},
+{
+    className: "fish4",
+    fishSpecies: "Guldfisk",
+    fishFamily: "Karpefisk",
+    fishFood: "insektlarver, orme, alger og plantemateriale",
+    funFact: "Guldfisk kan huske ting i op til 3 måneder – de har ikke kun 3 sekunders hukommelse!"
 }
 ];
 

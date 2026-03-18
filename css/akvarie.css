@@ -151,6 +151,20 @@ body {
     100% {transform: translate(-20vw,10vw);}
 }
 
+.fish4 {
+  position: absolute;
+  max-width: 10vw;
+  transform: translate(110vw, 22vw);
+  animation: fish4 18s linear infinite;
+  animation-delay: 6s;
+  z-index: 3;
+}
+
+@keyframes fish4 {
+    0%   {transform: translate(110vw, 22vw);}
+    100% {transform: translate(-25vw, 22vw);}
+}
+
 #faktaBoks {
   position: fixed;
   top: 30px;
