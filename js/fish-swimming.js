@@ -10,17 +10,17 @@ const fishInfo = [
 },
 {
     className: "fish2",
-    fishSpecies: "Klovnfisk",
-    fishFamily: "Jomfrufisk",
-    fishFood: "plankton, alger, orme",
-    funFact: "Alle klovnfisk er født som drenge!"
-},
-{
-    className: "fish3",
     fishSpecies: "Pincetfisk",
     fishFamily: "Sommerfuglefisk",
     fishFood: "smådyr, glasroser",
     funFact: "Søhesten er den langsomste fisk i verden!"
+},
+{
+    className: "fish3",
+     fishSpecies: "Klovnfisk",
+    fishFamily: "Jomfrufisk",
+    fishFood: "plankton, alger, orme",
+    funFact: "Alle klovnfisk er født som drenge!"
 }
 ];
 
