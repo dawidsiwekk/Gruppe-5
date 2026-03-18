@@ -69,3 +69,47 @@ body {
   transform: rotateY(360deg);
 }
 
+#tilbageKnap {
+  background-color: rgba(144,238,144,1);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+}
+
+#globusKnap {
+  background-color: rgba(144,238,144,1);
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  opacity: 0;
+}
+
+#buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+#pushHeader {   
+    font-family: Fredoka;
+    font-size: 2rem;
+    color: white;
+    text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+}
