@@ -28,6 +28,13 @@ const fishInfo = [
     fishFamily: "Karpefisk",
     fishFood: "insektlarver, orme, alger og plantemateriale",
     funFact: "Guldfisk kan huske ting i op til 3 måneder – de har ikke kun 3 sekunders hukommelse!"
+},
+{
+    className: "fish5",
+    fishSpecies: "Krabbe",
+    fishFamily: "Krebsdyr",
+    fishFood: "alger, orme, smådyr og ådsler",
+    funFact: "Krabber kan gå i alle fire retninger, men foretrækker at gå sidelæns!"
 }
 ];
 

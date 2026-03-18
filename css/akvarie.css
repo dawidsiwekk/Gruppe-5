@@ -154,6 +154,21 @@ body {
     100% {transform: translate(-25vw, 22vw);}
 }
 
+.fish5 {
+  position: absolute;
+  max-width: 8vw;
+  bottom: 85px;
+  animation: fish5Walk 20s linear infinite;
+  animation-delay: 3s;
+  z-index: 4;
+}
+
+@keyframes fish5Walk {
+    0%   { transform: translateX(-12vw) scaleX(1); }
+    100% { transform: translateX(112vw) scaleX(1); }
+}
+
+
 #faktaBoks {
   position: fixed;
   top: 30px;
