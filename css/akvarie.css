@@ -115,7 +115,7 @@ body {
 .fish2 {
   position: absolute;
   max-width: 24vw;
-  animation: fish2 17s linear infinite;
+  animation: fish2 20s linear infinite;
   animation-delay: 2s;
   z-index: 3;
   transform: translate(110vw, 32vw), scaleX(-1);
@@ -131,7 +131,7 @@ body {
   max-width: 20vw;
   transform: translate(100vw,5vw);
   animation: fish3 13s linear infinite;
-  animation-delay: 4s;
+  animation-delay: 6s;
   z-index: 3;
 }
 
@@ -144,7 +144,7 @@ body {
   position: absolute;
   max-width: 12vw;
   transform: translate(110vw, 22vw);
-  animation: fish4 13s linear infinite;
+  animation: fish4 25s linear infinite;
   animation-delay: 6s;
   z-index: 3;
 }
