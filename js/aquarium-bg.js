@@ -49,8 +49,8 @@ document.addEventListener('mousemove', function(event) {
 });
 
 function pushElements() {
-  const pushRadius   = 160;
-  const pushStrength = 75;
+  const pushRadius   = 80;
+  const pushStrength = 15;
 
   document.querySelectorAll('.pushable').forEach(function(element) {
     const box     = element.getBoundingClientRect();
