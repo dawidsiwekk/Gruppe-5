@@ -147,8 +147,22 @@ body {
 }
 
 @keyframes fish3 {
-    0%   {transform: translate(100vw,5vw);}
-    100% {transform: translate(-20vw,10vw);}
+    0%   {transform: translate(100vw,5vw) scaleX(-1);}
+    100% {transform: translate(-20vw,10vw) scaleX(-1);}
+}
+
+.fish4 {
+  position: absolute;
+  max-width: 10vw;
+  transform: translate(110vw, 22vw);
+  animation: fish4 18s linear infinite;
+  animation-delay: 6s;
+  z-index: 3;
+}
+
+@keyframes fish4 {
+    0%   {transform: translate(110vw, 22vw);}
+    100% {transform: translate(-25vw, 22vw);}
 }
 
 #faktaBoks {
