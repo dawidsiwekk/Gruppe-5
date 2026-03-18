@@ -46,8 +46,10 @@ main {
     border-radius: 30px;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
     cursor: pointer;
     background-color: rgba(144,238,144,0.85);
+    font-family: Fredoka;
 }
 
 /* The text here is not a text item no more, but a flex item */
@@ -69,8 +71,10 @@ main {
     border-radius: 30px;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
     cursor: pointer;
     background-color: rgba(144,238,144,0.85);
+    font-family: Fredoka;
 }
 .fish-box-2 p {
     display: flex;
@@ -89,8 +93,10 @@ main {
     border-radius: 30px;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
     cursor: pointer;
     background-color: rgba(144,238,144,0.85);
+    font-family: Fredoka;
 }
 .fish-box-3 p {
     display: flex;
@@ -111,8 +117,10 @@ main {
     border-radius: 30px;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
     cursor: pointer;
     background-color: rgba(144,238,144,0.85);
+    font-family: Fredoka;
 }
 .fish-box-4 p {
     display: flex;
