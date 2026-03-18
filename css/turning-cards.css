@@ -25,13 +25,15 @@ body {
 }
 
 .card {
-  width: 250px;
-  height: 250px;
+  width: 220px;
+  height: 220px;
   position: relative;
   cursor: pointer;
   perspective: 1000px;
   border-radius: 20px;
   overflow: hidden;
+  margin: 10px 40px;
+  flex: 0 0 220px; /* Prevents shrinking */
 }
 
 /* Front + Back */
@@ -53,6 +55,9 @@ body {
 /* Back side */
 .card-back {
   transform: rotateY(180deg);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /* Flip animation */
@@ -63,3 +68,4 @@ body {
 .card.flipped .card-back {
   transform: rotateY(360deg);
 }
+
