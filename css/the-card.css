@@ -168,3 +168,15 @@ main {
     height: 110px;
     rotate: 280deg;
 }
+
+#go-back {
+    background-color: rgba(144,238,144,1);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin-left: 10px;
+}
