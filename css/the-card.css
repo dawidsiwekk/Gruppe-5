@@ -21,13 +21,15 @@ body {
 }
 
 /* Flex cointainer, that moves fish + kort */
-section {
+main {
     padding: 0px 30px 0px 30px;
     display: flex;
     justify-content: space-between ;
     flex-direction: row-reverse;
     align-items: flex-start;
 }
+
+
 
 /* Here you chancge how fishes are displayed */
 .fish-box {
@@ -103,6 +105,7 @@ section {
 #fish-3-vector {
     height: 80px;
     width: auto;
+    scale: 80%;
 }
 
 
@@ -155,4 +158,20 @@ section {
     width: 120px;
     height: 80px;
     rotate: 98deg;
+}
+
+#area-3 {
+    top: 5%;
+    left: 40%;
+    width: 90px;
+    height: 80px;
+    rotate: 116deg;
+}
+
+#area-4 {
+    top: 49%;
+    left: 11%;
+    width: 110px;
+    height: 110px;
+    rotate: 280deg;
 }
