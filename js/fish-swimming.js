@@ -1,5 +1,6 @@
 "use strict";
 
+document.addEventListener("DOMContentLoaded", () => {
 const fishInfo = [
 {
     className: "fish1",
@@ -77,4 +78,5 @@ document.addEventListener("DOMContentLoaded", () => {
     const getBlueCar = document.querySelector("#blueCar");
     const getPoliceCar = document.querySelector("#policeCar");
 
+})
 })
