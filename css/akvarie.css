@@ -254,6 +254,7 @@ body {
   justify-content: space-between;
   padding: 0 20px;
   box-sizing: border-box;
+  z-index: 10;
 }
 
 #pushHeader {
@@ -265,6 +266,10 @@ body {
      2px -2px 0 black,
     -2px  2px 0 black,
      2px  2px 0 black;
-    position: relative;
+    position: fixed;
+    bottom: 140px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 9999;
+    white-space: nowrap;
 }
