@@ -169,6 +169,19 @@ body {
 }
 
 
+.seastar {
+  position: absolute;
+  max-width: 10vw;
+  bottom: 68px;
+  z-index: 2;
+  animation: seastarCrawl 70s linear infinite;
+}
+
+@keyframes seastarCrawl {
+  0%   { transform: translateX(-15vw); }
+  100% { transform: translateX(110vw); }
+}
+
 #faktaBoks {
   position: fixed;
   top: 30px;
