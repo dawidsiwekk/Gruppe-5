@@ -38,30 +38,22 @@ const fishInfo = [
 }
 ];
 
-/* Venter med at køre JS-koden til hele DOM'en er indlæst */
 document.addEventListener("DOMContentLoaded", () => {
 
     const fiskeFakta = document.getElementById("fiskeFakta")
-    
-    /* Funktion der viser toolTip med bil-info */
+
 
     function showFiskeFakta(html) {
 
-        /* Tjekker om tool-tip elementet eksisterer i DOM'en */
         if (fiskeFakta) {
-            /* Indsætter tekst i tool-tip elementet */
             fiskeFakta.innerHTML = html;
-            /* Gør tooltip elementet synligt med CSS-klassen is-visible */
             fiskeFakta.classList.add("isVisible");
 
         }
     }
-    /* Gennemløber alle bil-objekter i carinfo JS-Datastrukturen */
     fishInfo.forEach((fish) => {
-        /* Finder alle DOM-elementer med den aktuelle bil class attribute navn */
         document.querySelectorAll("." + fish.className).forEach((elem) =>{
             elem.addEventListener("mouseenter", () => {
-                /* Oprette en HTML-blok indeholdende bilens detaljer */
                 const fishDetails = `
                 <div class="fakta-navn">${fish.fishSpecies}</div>
                 Familie: ${fish.fishFamily}<br>
@@ -77,11 +69,4 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
     });
-
-    /* Hente Alle DOM-elementer */
-
-    const getRedCar = document.querySelector("#redcar");
-    const getBlueCar = document.querySelector("#blueCar");
-    const getPoliceCar = document.querySelector("#policeCar");
-
 })
