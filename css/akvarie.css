@@ -162,6 +162,8 @@ body {
   animation-delay: 1s;
   z-index: 6;
   transform: translateX(-12vw);
+
+  
 }
 
 @keyframes fish5Walk {
